@@ -10,8 +10,6 @@ import Buffer from './components/Buffer';
 import { useAppDispatch } from './store';
 import { fetchWeatherHistory } from './reducers/weatherHistoryReducer';
 
-// change urls to relative at constants before deploy
-
 const App: React.FC = () => {
   const dispatch = useAppDispatch();
 
